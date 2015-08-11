@@ -1,0 +1,18 @@
+# Site settings
+#source: .
+title: DramaTheory.org
+email: saul@saulhoward.com
+description: > # this means to ignore newlines until "baseurl:"
+    Drama theory links and news from across the web.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://dramatheory.org" # the base hostname & protocol for your site
+twitter_username: saulhoward
+github_username:  dramatheory
+
+exclude: [vendor, bin]
+
+# Build settings
+markdown: redcarpet
+permalink: pretty
+highlighter: pygments

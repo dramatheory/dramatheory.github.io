@@ -1,0 +1,381 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// variables
+$base-font-family: 'Open Sans', 'Helvetica Neue', 'Calibri', Arial, sans-serif;
+$base-font-weight: 400;
+$base-bold-font-weight: 700;
+
+$monospace-font-family: 'Ubuntu Mono', 'Courier New', monospace;
+$monospace-font-weight: 400;
+
+$header-font-family: 'Open Sans', 'Helvetica Neue', 'Calibri', Arial, sans-serif;
+$header-font-weight: 700;
+
+$alt-font-family: 'Nixie One', 'Helvetica Neue', 'Calibri', Arial, sans-serif;
+$alt-font-weight: 400;
+
+$site-nav-font-family: $base-font-family;
+$site-nav-font-weight: $base-font-weight;
+
+// skeleton css base
+@import 'vendors/skeleton';
+
+// local imports
+@import 'lists';
+@import 'menus';
+@import 'syntax-highlighting';
+
+// colors
+$c-white: #FFFFFF;
+$c-black: #000000;
+
+// blue-grey grey
+$c-grey: #B0BEC5;
+$c-grey-light: #ECEFF1;
+$c-grey-dark: #263238;
+
+// blue primary
+$c-primary: #2196F3;
+$c-primary-light: #E3F2FD;
+$c-primary-dark: #1565C0;
+
+// deep orange accent
+$c-accent: #FF3D00;
+$c-accent-light: #FF6E40;
+$c-accent-dark: #DD2C00;
+
+// text 
+$c-text-light-on-dark-primary: rgba(255,255,255,1);
+$c-text-light-on-dark-secondary: rgba(255,255,255,0.7);
+$c-text-light-on-dark-hint: rgba(255,255,255,0.3);
+
+$c-text-dark-on-light-primary: rgba(0,0,0,0.87);
+$c-text-dark-on-light-secondary: rgba(0,0,0,0.54);
+$c-text-dark-on-light-hint: rgba(0,0,0,0.26);
+
+// layout
+body {
+    margin: 0;
+}
+.container {
+    max-width: 800px;
+}
+.page-content {
+    padding: 48px 0 55px 0;
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .post {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+	&.alt p {
+        max-width: 30em;
+	}
+}
+.page-footer {
+	padding: 48px 0 55px 0;
+}
+.page-header {
+    padding: 10px 0;
+}
+
+// Typography
+body {
+    font-family: $base-font-family;
+    font-weight: $base-font-weight;
+    font-size: 1.8em;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: $header-font-family;
+    font-weight: $header-font-weight;
+}
+.site-nav {
+    font-family: $site-nav-font-family;
+    font-weight: $site-nav-font-weight;
+}
+code, kbd, samp , pre, xmp, plaintext, listing {
+    font-family: $monospace-font-family;
+}
+
+
+// base-colors
+body {
+    background-color: $c-grey-light;
+}
+a {
+    color: $c-primary;
+    &:hover {
+        color: $c-primary-dark;
+    }
+}
+.page-header {
+    background-color: $c-primary-light;
+    color: $c-text-dark-on-light-secondary;
+    a {
+		color: $c-primary;
+		&:hover {
+			color: $c-primary-dark;
+		}
+    }
+	h1 a {
+		color: $c-text-dark-on-light-secondary;
+		&:hover {
+			color: $c-primary;
+		}
+	}
+}
+.page-content {
+    background-color: $c-white;
+    color: $c-text-dark-on-light-primary;
+    h1, h2, h3, h4, h5 {
+        color: $c-text-dark-on-light-secondary;
+		a {
+			color: $c-primary;
+		}
+    }
+    a {
+        color: $c-primary-dark;
+        &:hover {
+            color: $c-primary;
+        }
+    }
+
+    &.alt {
+        background-color: $c-primary-light;
+        color: $c-text-dark-on-light-secondary;
+        h1, h2, h3, h4, h5 {
+            color: $c-text-light-on-dark-primary;
+        }
+        a {
+            color: $c-primary-light;
+            &:hover {
+                color: $c-primary;
+            }
+        }
+    }
+}
+.page-footer {
+    background-color: $c-grey-light;
+    color: $c-text-dark-on-light-primary;
+    a {
+        color: $c-primary-dark;
+        &:hover {
+            color: $c-primary;
+        }
+    }
+}
+
+
+// big image index page
+
+.hero {
+    background-color:  $c-white; 
+	margin: 0 auto;
+	padding-bottom: 48px;
+
+    .site-nav {
+		padding-top: 10px;
+		margin-right: 25px;
+        line-height: 40px;
+        a {
+			background-color: $c-primary;
+			color: $c-white;
+			padding: 0 8px;
+			border-radius: 4px;
+			margin-right: 10px;
+            &:hover {
+				background-color: $c-primary-dark;
+            }
+
+            /* Larger than phablet */
+            @media (min-width: 550px) {
+                font-size: 1.4em;
+            }
+        }
+
+        text-align: center;
+
+        /* Larger than phablet */
+        @media (min-width: 550px) {
+            text-align: right;
+        }
+    }
+
+    .title {
+        h1 {
+            text-align: left;
+			margin-bottom: 10px;
+            a {
+                color: $c-primary;
+                &:hover {
+                    color: $c-primary-dark;
+                }
+                text-decoration: none;
+            }
+        }
+    }
+    .description {
+        p {
+            color: $c-text-dark-on-light-secondary;
+            font-size: 1.3em;
+            margin-bottom: 0;
+        }
+    }
+}
+
+// header
+.page-header {
+    .container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+        text-align: center;
+        a {
+            text-decoration: none;
+        }
+        margin-bottom: 3px;
+    }
+    .subtitle {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .site-nav {
+        margin: 8px 0 0 0;
+        text-align: center;
+        a {
+            font-weight: 400;
+            text-transform: uppercase;
+            &:hover {
+                text-decoration: underline;
+            }
+
+            font-size: 13px;
+            padding-left: 3px;
+            padding-right: 3px;
+
+            /* Larger than phablet */
+            @media (min-width: 550px) {
+                font-size: 16px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+        }
+        li:not(:last-child) a:after {
+            color: $c-accent;
+            content: '·';
+            display: inline-block;
+            font-style: normal;
+
+            padding-left: 6px;
+
+            /* Larger than mobile */
+            @media (min-width: 400px) {
+            }
+
+            /* Larger than phablet */
+            @media (min-width: 550px) {
+                padding-left: 20px;
+            }
+        }
+    }
+}
+
+// footer
+.page-footer {
+    .footer-heading {
+        overflow: hidden;
+		margin-bottom: 10px;
+		text-align: center;
+		/* Larger than phablet */
+		@media (min-width: 550px) {
+			text-align: left;
+		}
+
+        a {
+            text-decoration: none;
+            color: $c-text-dark-on-light-secondary;
+            &:hover {
+                color: $c-primary;
+            }
+        }
+    }
+    .footer-description {
+        color:  $c-text-dark-on-light-secondary;
+
+		text-align: center;
+		/* Larger than phablet */
+		@media (min-width: 550px) {
+			text-align: left;
+		}
+    }
+    .columns {
+        margin-bottom: 36px;
+    }
+    .menu {
+        a {
+            font-weight: 400;
+            color:  $c-text-dark-on-light-primary;
+            &:hover {
+                color: $c-primary;
+            }
+        }
+    }
+    .site-nav {
+        text-align: center;
+        text-transform: uppercase;
+        a {
+            color:  $c-text-dark-on-light-secondary;
+        }
+    }
+}
+
+// icons
+li .icon {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    svg {
+        fill: $c-primary;
+    }
+}
+
+// contact page
+.adr p, p.tel, {
+    margin: 0;
+}
+.fixed-numbers {
+    font-family: sans-serif;
+}
+    
+// post list
+.post-list {
+    list-style: none;
+    padding-left: 0;
+
+    .post-meta {
+        font-style: italic;
+        color: $c-text-dark-on-light-secondary;
+    }
+    h4 {
+        margin-bottom: 0;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+.rss-subscribe {
+}

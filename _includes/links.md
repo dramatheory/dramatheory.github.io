@@ -1,0 +1,2 @@
+- [Dilemmas Galore](http://www.dilemmasgalore.com/)
+- [Dilemma Explorer](http://www.decisionworkshops.com/dilemma-explorer/4581290653)

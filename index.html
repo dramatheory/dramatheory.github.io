@@ -1,0 +1,77 @@
+---
+page-title: DramaTheory.org
+id: index
+permalink: /
+---
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+
+    <body>
+        <header class="hero">
+            <div class="topline">
+				<div class="site-nav">
+					<nav class="menu menu-horizontal">
+					<ul class="menu-list">
+						{% for page in site.pages %}
+							{% if page.id != "cv" and page.id != "index" and page.title %}
+								<li class="menu-item">
+									<a class="menu-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+								</li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+					</nav>
+				</div>
+            </div>
+			<div class="container">
+				<div class="title">
+					<h1><a href="{{ site.baseurl }}/">Drama Theory</a></h1>
+				</div>
+				<div class="description">
+					<p>
+						{{ site.description }}
+					</p>
+				</div>
+            </div>
+        </header>
+
+        <div class="page-content alt">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <p>
+
+						Drama theory is a problem structuring method of
+						operations research. It is based on game theory and
+						adapts the use of games to complex organisational
+						situations, accounting for emotional responses that
+						can provoke irrational reactions and lead the
+						players to redefine the game.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="page-content">
+        <div class="container">
+            <h3>External sites</h3>
+            {% markdown links.md %}
+        </div>
+        </div>
+
+
+        <div class="page-content">
+        <div class="container">
+            <h3>Articles</h3>
+            {% include post-list.html %}
+        </div>
+        </div>
+
+        {% include footer.html %}
+
+    </body>
+
+</html>
