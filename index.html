@@ -58,7 +58,8 @@ permalink: /
         <div class="page-content">
         <div class="container">
             <h3>External sites</h3>
-            {% markdown links.md %}
+			{% capture my_include %}{% include links.md %}{% endcapture %}
+			{{ my_include | markdownify }}
         </div>
         </div>
 

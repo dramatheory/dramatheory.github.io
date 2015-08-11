@@ -7,4 +7,5 @@ permalink: /links/
 
 ## External sites
 
-{% markdown links.md %}
+{% capture my_include %}{% include links.md %}{% endcapture %}
+{{ my_include | markdownify }}
