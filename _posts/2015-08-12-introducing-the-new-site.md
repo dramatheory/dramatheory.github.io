@@ -2,7 +2,7 @@
 layout: post
 title:  "Introducing dramatheory.org"
 date:   2015-08-12 08:00:00
-categories: dramatheory.org update
+categories: site-updates
 excerpt: Welcome to the all new Drama Theory community portal.
 author: Saul Howard
 author_url: https://twitter.com/saulhoward
