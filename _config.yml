@@ -10,7 +10,7 @@ url: "http://dramatheory.org" # the base hostname & protocol for your site
 twitter_username: saulhoward
 github_username:  dramatheory
 
-exclude: [vendor, bin]
+exclude: [vendor, bin, README.md]
 
 # Build settings
 markdown: redcarpet
