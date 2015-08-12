@@ -5,7 +5,7 @@ page-title: Links
 permalink: /links/
 ---
 
-## External sites
+## External resources
 
 {% capture my_include %}{% include links.md %}{% endcapture %}
 {{ my_include | markdownify }}
