@@ -54,7 +54,7 @@ $c-text-light-on-dark-hint: rgba(255,255,255,0.3);
 
 $c-text-dark-on-light-primary: rgba(0,0,0,0.87);
 $c-text-dark-on-light-secondary: rgba(0,0,0,0.54);
-$c-text-dark-on-light-hint: rgba(0,0,0,0.26);
+$c-text-dark-on-light-hint: rgba(0,0,0,0.4);
 
 // layout
 body {
@@ -205,10 +205,11 @@ a {
         }
 
         text-align: center;
-
+        margin-bottom: 25px;
         /* Larger than phablet */
         @media (min-width: 550px) {
             text-align: right;
+        margin-bottom: 0;
         }
     }
 
@@ -227,7 +228,7 @@ a {
     }
     .description {
         p {
-            color: $c-text-dark-on-light-secondary;
+            color: $c-text-dark-on-light-hint;
             font-size: 1.3em;
             margin-bottom: 0;
         }
@@ -377,7 +378,7 @@ li .icon {
     h4 {
         margin-bottom: 0;
         a {
-            text-decoration: none;
+            color: $c-accent-light;
         }
     }
 }
