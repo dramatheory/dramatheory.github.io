@@ -6,5 +6,5 @@ permalink: /news/
 redirect_from: "/blog"
 ---
 
-<h2>Drama Theory news</h2>
+<h2>Drama Theory News</h2>
 {% include html-components/post-list.html %}

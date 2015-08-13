@@ -1,4 +1,4 @@
-## Drama Theory resources
+## Drama Theory Resources
 
 This is a list of key resources for Drama Theory experts and practitioners.  
 
