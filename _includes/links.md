@@ -16,6 +16,8 @@ The forum for Drama Theory discussions.
 
 #### Publications 
 
+##### [Oedipus Decision Maker] (http://www.dilemmasgalore.com/forum/viewforum.php?f=20&amp;sid=439d9a1d0505d3550fa74a451df972a3">http://www.dilemmasgalore.com/forum/viewforum.php?f=20&amp;sid=439d9a1d0505d3550fa74a451df972a3) 
+
 
 #### Software 
 
