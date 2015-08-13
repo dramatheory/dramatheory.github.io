@@ -26,3 +26,7 @@ The forum for Drama Theory discussions.
 Decision Workshops has developed the software package Dilemma Explorer
 as a tool to help examine confrontations and pinpoint those dilemmas
 that are preventing agreement.
+
+
+#### Applications 
+
