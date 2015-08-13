@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Links
-page-title: Links
-permalink: /links/
+title: Resources
+page-title: Drama Theory resources
+permalink: /resources/
+redirect_from: "/links"
 ---
-
-## External resources
 
 {% capture my_include %}{% include links.md %}{% endcapture %}
 {{ my_include | markdownify }}
