@@ -6,5 +6,5 @@ permalink: /resources/
 redirect_from: "/links"
 ---
 
-{% capture my_include %}{% include links.md %}{% endcapture %}
+{% capture my_include %}{% include resources.md %}{% endcapture %}
 {{ my_include | markdownify }}
