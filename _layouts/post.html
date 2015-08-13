@@ -5,11 +5,22 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">
+        Posted on {{ page.date | date: "%b %-d, %Y" }}
+        {% if page.author and page.author_url %}
+            by <span class="author"><a href="{{ page.author_url }}" target="_blank">{{ page.author }}</a></span>
+        {% elsif page.author %}
+            by <span class="author">{{ page.author }}</span>
+        {% endif %}
+        {% if page.meta %} • {{ page.meta }}{% endif %}
+    </p>
   </header>
 
   <article class="post-content">
     {{ content }}
   </article>
 
+  <footer class="post-footer">
+    <a href="/news/" class="button">More posts</a>
+  </footer>
 </div>

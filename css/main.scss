@@ -12,13 +12,16 @@ $monospace-font-family: 'Ubuntu Mono', 'Courier New', monospace;
 $monospace-font-weight: 400;
 
 $header-font-family: 'Open Sans', 'Helvetica Neue', 'Calibri', Arial, sans-serif;
-$header-font-weight: 700;
+$header-font-weight: 400;
 
 $alt-font-family: 'Nixie One', 'Helvetica Neue', 'Calibri', Arial, sans-serif;
 $alt-font-weight: 400;
 
 $site-nav-font-family: $base-font-family;
 $site-nav-font-weight: $base-font-weight;
+
+$title-font-family: $alt-font-family;
+$title-font-weight: $alt-font-weight;
 
 // skeleton css base
 @import 'vendors/skeleton';
@@ -43,9 +46,9 @@ $c-primary-light: #E3F2FD;
 $c-primary-dark: #1565C0;
 
 // deep orange accent
-$c-accent: #FF3D00;
-$c-accent-light: #FF6E40;
-$c-accent-dark: #DD2C00;
+$c-accent: #FF9100;
+$c-accent-light: #FFF3E0;
+$c-accent-dark: #FF6D00;
 
 // text 
 $c-text-light-on-dark-primary: rgba(255,255,255,1);
@@ -185,9 +188,11 @@ a {
 	padding-bottom: 48px;
 
     .site-nav {
+        max-width: 1200px;
+        margin: 0 auto;
 		padding-top: 10px;
-		margin-right: 25px;
         line-height: 40px;
+
         a {
 			background-color: $c-primary;
 			color: $c-white;
@@ -209,18 +214,20 @@ a {
         /* Larger than phablet */
         @media (min-width: 550px) {
             text-align: right;
-        margin-bottom: 0;
+            margin-bottom: 0;
         }
     }
 
     .title {
         h1 {
+            font-family: $title-font-family;
+            font-weight: $title-font-weight;
             text-align: left;
 			margin-bottom: 10px;
             a {
-                color: $c-primary;
+                color: $c-text-dark-on-light-secondary;
                 &:hover {
-                    color: $c-primary-dark;
+                    color: $c-primary;
                 }
                 text-decoration: none;
             }
@@ -243,6 +250,8 @@ a {
     }
 
     h1 {
+        font-family: $title-font-family;
+        font-weight: $title-font-weight;
         font-size: 28px;
         text-align: center;
         a {
@@ -310,6 +319,8 @@ a {
 		}
 
         a {
+            font-family: $title-font-family;
+            font-weight: $title-font-weight;
             text-decoration: none;
             color: $c-text-dark-on-light-secondary;
             &:hover {
@@ -378,9 +389,34 @@ li .icon {
     h4 {
         margin-bottom: 0;
         a {
-            color: $c-accent-light;
+            color: $c-accent;
+            &:hover {
+                color: $c-accent;
+            }
         }
     }
 }
 .rss-subscribe {
+}
+
+// individual post page
+.post {
+    .post-meta {
+        color: $c-text-dark-on-light-hint;
+        a {
+            color: $c-primary;
+            &:hover {
+                color: $c-primary-dark;
+            }
+        }
+        .author {
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    footer {
+        margin-top: 60px;
+    }
 }
