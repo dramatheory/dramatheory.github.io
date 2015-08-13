@@ -9,7 +9,7 @@ This is a list of key resources for Drama Theory experts and practitioners.
 
 The forum for Drama Theory discussions.
 
-##### [Decision Mechanics Blog] (http://decisionmechanics.com/decision-making-blog/)  
+##### [Decision Mechanics Blog] (decisionmechanics.com/decision-making-blog/)  
 
 ##### [the Dramaturg] (https://dramatheory.wordpress.com/author/dramatheory/%5D">https://dramatheory.wordpress.com/author/dramatheory/%5D) 
 
