@@ -1,3 +1,7 @@
+#### [DRAMA THEORY RESOURCES] 
+
+This is a list of key resources for Drama Theory experts and practitioners.  
+
 #### [Dilemmas Galore](http://www.dilemmasgalore.com/)
 
 The forum for Drama Theory discussions.
