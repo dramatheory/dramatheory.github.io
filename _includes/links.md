@@ -17,7 +17,9 @@ The forum for Drama Theory discussions.
 #### Publications 
 
 
-#### [Dilemma Explorer](http://www.decisionworkshops.com/dilemma-explorer/4581290653)
+#### Software 
+
+##### [Dilemma Explorer](http://www.decisionworkshops.com/dilemma-explorer/4581290653)
 
 Decision Workshops has developed the software package Dilemma Explorer
 as a tool to help examine confrontations and pinpoint those dilemmas
