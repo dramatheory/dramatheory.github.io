@@ -1,4 +1,4 @@
-# Website includes
+# Site includes
 
 The files in this directory are included by the pages on the site.
 
@@ -13,7 +13,7 @@ This is the list of Frequently Asked Questions. Please improve this
 list!
 
 
-## `/html-components/`
+### `/html-components/`
 
 The `html-components` directory contains low-level HTML files. Please don't edit the files in
 this directory.
