@@ -14,7 +14,7 @@ permalink: /
 					<nav class="menu menu-horizontal">
 					<ul class="menu-list">
 						{% for page in site.pages %}
-							{% if page.id != "faq" and page.id != "index" and page.title %}
+							{% if page.id != "mind-maps" and page.id != "faq" and page.id != "index" and page.title %}
 								<li class="menu-item">
 									<a class="menu-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 								</li>

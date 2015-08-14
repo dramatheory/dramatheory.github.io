@@ -355,6 +355,23 @@ a {
         a {
             color:  $c-text-dark-on-light-secondary;
         }
+        li:not(:last-child) a:after {
+            color: $c-accent;
+            content: '·';
+            display: inline-block;
+            font-style: normal;
+
+            padding-left: 6px;
+
+            /* Larger than mobile */
+            @media (min-width: 400px) {
+            }
+            /* Larger than phablet */
+            @media (min-width: 550px) {
+                padding-left: 20px;
+            }
+        }
+
     }
 }
 

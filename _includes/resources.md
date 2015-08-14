@@ -4,6 +4,7 @@
 
 ### Blogs and Forums
 
+- [Dilemmas Galore](http://www.dilemmasgalore.com)
 - [The Dramaturg](https://dramatheory.wordpress.com/)
 
 ### Commercial Sites
