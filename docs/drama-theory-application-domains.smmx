@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><simplemind-mindmaps doc-version="3" generator="SimpleMindAndroid" gen-version="1.10.0">
+<mindmap>
+<meta>
+<guid guid="889B8041331DEA2293AEC1331729FD46"/>
+<title text="DT Application Domains"/>
+<style key="system.bright-palette"/>
+<auto-numbering style="disabled"/>
+<scrollstate zoom="58" x="-254.0" y="-330.0"/>
+<selection guid="UWpGhILpo3BCDbrfuRTMCA" type="node" id="1"/>
+<main-centraltheme id="0"/>
+</meta>
+<topics>
+<topic id="0" parent="-1" guid="g7TZKS4sSD66Hr5wLntfyA" x="476.51813" y="548.5556" palette="1" colorinfo="1" text="DT Application Domains "/>
+<topic id="1" parent="0" guid="UWpGhILpo3BCDbrfuRTMCA" x="795.85675" y="717.0809" palette="2" colorinfo="-1" text="Psychology and\Npersonal\Nrelations">
+<style>
+<textcolor r="0" g="0" b="0"/>
+<fillcolor r="156" g="235" b="222"/>
+<strokecolor r="33" g="163" b="141"/>
+</style>
+<fillcolor r="156" g="235" b="222"/>
+<strokecolor r="33" g="163" b="141"/>
+</topic>
+<topic id="2" parent="1" guid="ljJWl2jf3ElaJE-5Ju9G0g" x="832.5453" y="829.8366" text="Dilemmas Galore forum "/>
+<topic id="3" parent="2" guid="itSSLJKaCuQyS37ldE4aFQ" x="838.4318" y="934.30035" text="DT1">
+<link urllink="http://www.dilemmasgalore.com/forum/viewforum.php?f=6&amp;sid=f315889eb7fca928d20e69d7c6426f2a"/>
+</topic>
+<topic id="4" parent="2" guid="lhrA5nrXu8wFlKzAROP9fQ" x="976.2037" y="902.2687" text="DT2">
+<link urllink="http://www.dilemmasgalore.com/forum/viewforum.php?f=26&amp;sid=f315889eb7fca928d20e69d7c6426f2a"/>
+</topic>
+<topic id="5" parent="1" guid="uAM1FqD2_fokztKrm44Pmg" x="1006.2971" y="792.1381" text="The Dramaturg blog ">
+<link urllink="https://dramatheory.wordpress.com/category/using-drama-theory/social-personal-relations/"/>
+</topic>
+<topic id="6" parent="1" guid="NWICMxrXcd8u65pXZWfByg" x="1006.32635" y="700.86865" text="Decision Workshops ">
+<link urllink="http://www.decisionworkshops.com/case-studies/4577832368"/>
+</topic>
+<topic id="7" parent="0" guid="Y4QnZ8JVrifAzXwDOhAB1w" x="148.57875" y="696.40924" palette="3" colorinfo="3" text="Fiction "/>
+<topic id="8" parent="7" guid="-BZGt-sZeg63Qr2SsLcztg" x="-14.301326" y="742.55035" text="Dilemmas Galore forum "/>
+<topic id="9" parent="8" guid="DU0wIBz9nNxlOQ-XmGMjLg" x="-266.5798" y="779.1901" text="DT1">
+<link urllink="http://www.dilemmasgalore.com/forum/viewforum.php?f=10&amp;sid=f315889eb7fca928d20e69d7c6426f2a"/>
+</topic>
+<topic id="10" parent="8" guid="YWOol5P4xSJx1uZ1sW3xQA" x="-215.63239" y="857.997" text="DT2">
+<link urllink="http://www.dilemmasgalore.com/forum/viewforum.php?f=34&amp;sid=f315889eb7fca928d20e69d7c6426f2a"/>
+</topic>
+<topic id="11" parent="7" guid="C6Fk1K55-I2QcouBxLVXYg" x="-143.58836" y="666.3056" text="The Dramaturg blog">
+<parent-relation guid="scYwDOv6N_S29H9p_0PI1A"/>
+<link urllink="https://dramatheory.wordpress.com/category/using-drama-theory/film-and-drama/"/>
+</topic>
+<topic id="12" parent="0" guid="fBWmUZJzNTsI52O5k4-Axw" x="672.7892" y="253.40726" palette="5" colorinfo="5" text="Business &amp; Management "/>
+<topic id="13" parent="12" guid="XmL5MEDoj7_kabhPFOo1SA" x="530.97314" y="83.43875" text="Dilemmas Galore forum"/>
+<topic id="14" parent="13" guid="TLNuhyMXDI51dww_UasGAQ" x="599.23645" y="-27.740112" text="DT 1 business forum ">
+<link urllink="http://www.dilemmasgalore.com/forum/viewforum.php?f=8&amp;sid=f315889eb7fca928d20e69d7c6426f2a"/>
+</topic>
+<topic id="15" parent="13" guid="qBieLT46pktQpmhBMNh9Fw" x="483.75412" y="-82.15939" text="DT2 business forum">
+<link urllink="http://www.dilemmasgalore.com/forum/viewforum.php?f=32&amp;sid=f315889eb7fca928d20e69d7c6426f2a"/>
+</topic>
+<topic id="16" parent="13" guid="hmsacyyMEoOv85Ondrq3pw" x="364.91483" y="-17.913727" text="DT2 forum for\Norganisations &amp;\Nmanagers">
+<link urllink="http://www.dilemmasgalore.com/forum/viewforum.php?f=21&amp;sid=f315889eb7fca928d20e69d7c6426f2a"/>
+</topic>
+<topic id="17" parent="12" guid="jq1CsFcmdNoz2zyylGRpdA" x="781.93604" y="19.357101" text="Publications "/>
+<topic id="18" parent="17" guid="Db-KQwvES_7yWXRJHAEUrQ" x="765.11084" y="-145.05405" text="A new Drama-Theoretic Method for Conflict\NResolution in Management">
+<link urllink="http://www.palgrave-journals.com/ori/journal/v20/n1/abs/ori20074a.html"/>
+</topic>
+<topic id="19" parent="17" guid="Wph5qpEmlbQSXREQbSVVpQ" x="898.75397" y="-74.750275" text="The Six Dilemmas of\NCollaboration">
+<link urllink="http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470843926.html"/>
+</topic>
+<topic id="20" parent="17" guid="e86A1qDiBP24UOuUp9_MgQ" x="1025.0876" y="-0.6020813" text="Acting Strategically Using\NDrama Theory">
+<link urllink="https://www.crcpress.com/Acting-Strategically-Using-Drama-Theory/Bryant/9781482245318"/>
+</topic>
+<topic id="21" parent="12" guid="tHg12CD3icg3-L9tn9hNcQ" x="323.9216" y="237.14478" text="Websites with DT-based\Ntools and services"/>
+<topic id="22" parent="21" guid="wy6wLyeONMxV0Rb93kIRzg" x="34.75061" y="283.58426" text="Idea Sciences ">
+<parent-relation guid="jm8YkrJDhu3a7gAPeBlTUA"/>
+<link urllink="http://www.ideasciences.com"/>
+</topic>
+<topic id="23" parent="21" guid="B2jsOk1AmO262IIo3-5--w" x="81.78363" y="186.83057" text="Decision Workshops">
+<parent-relation guid="ihuPtvhvyK1r_Q6swkHJwA"/>
+<link urllink="http://www.decisionworkshops.com"/>
+</topic>
+<topic id="24" parent="21" guid="yZ11ixYyJt8RSG6aT4kDlg" x="224.7229" y="91.133026" text="Decision Mechanics">
+<parent-relation guid="Zx4rJSz5a3aiderm_I_o6Q"/>
+<link urllink="http://decisionmechanics.com"/>
+</topic>
+<topic id="25" parent="0" guid="n7_qibnE6-cKvAFiS7XNcA" x="940.9584" y="424.43445" palette="6" colorinfo="6" text="Military"/>
+<topic id="26" parent="25" guid="8-bnqkSzVjyDJjv20z7hIA" x="1082.6919" y="371.00946" text="Dilemmas Galore forum "/>
+<topic id="27" parent="26" guid="iZ7MjJ1EbS7ibTtUpZLPoQ" x="1074.6566" y="250.6503" text="DT1">
+<link urllink="http://www.dilemmasgalore.com/forum/viewforum.php?f=9"/>
+</topic>
+<topic id="28" parent="26" guid="2PrMqJXKLwESpx3Ht2mi4g" x="1174.396" y="269.08008" text="DT2">
+<link urllink="http://www.dilemmasgalore.com/forum/viewforum.php?f=33&amp;sid=f315889eb7fca928d20e69d7c6426f2a"/>
+</topic>
+<topic id="29" parent="25" guid="QA4Gb4fWr7DrJr-qQpm27g" x="1061.3632" y="470.78125" text="Publications "/>
+<topic id="30" parent="29" guid="wBca5B9PDZHqBmlOgSWvfA" x="1154.129" y="556.652" text="The Utility of Force">
+<link urllink="https://en.wikipedia.org/wiki/The_Utility_of_Force"/>
+</topic>
+<topic id="31" parent="25" guid="Jgtwz04ZFG8-puAcutX9xg" x="1210.2109" y="421.98322" text="The Dramaturg blog">
+<link urllink="https://dramatheory.wordpress.com/category/using-drama-theory/defense/"/>
+</topic>
+<topic id="32" parent="0" guid="EFqh3pAR1tgOobT85_Wnhg" x="460.31793" y="813.5482" palette="7" colorinfo="7" text="Political\NScience and\Nmanagement"/>
+<topic id="33" parent="32" guid="YNH6nWf_TOKlbUo-260-KQ" x="490.22244" y="957.5115" text="The Dramaturg blog ">
+<link urllink="https://dramatheory.wordpress.com/category/about-confrontations/drama-theory/"/>
+</topic>
+<topic id="34" parent="32" guid="tqWpwulSEf_GTJy4QzoHBQ" x="266.92004" y="852.0026" text="Courses">
+<parent-relation guid="4uxmXiSPc36uPuJi8n28JQ"/>
+</topic>
+<topic id="35" parent="34" guid="Dld6Y0c4XGvNgdcvXzLVOA" x="245.97974" y="995.838" text="Graduate School of Political\NManagement at George\NWashington University">
+<link urllink="http://gspm.gwu.edu"/>
+</topic>
+<topic id="36" parent="0" guid="bUpVhpurZwlBSFcxUbk4VA" x="209.8206" y="465.79245" palette="2" colorinfo="2" text="Drama\NTheory basics"/>
+<topic id="37" parent="36" guid="aZiD_k21-Nwu4OBtRQFC2w" x="-110.56413" y="436.62613" text="Dilemmas Galore ">
+<link urllink="www.dilemmasgalore.com"/>
+</topic>
+<topic id="38" parent="36" guid="FX2jBpRMRLwFNx2cM394dw" x="-90.24608" y="505.55283" text="The Dramaturg blog">
+<link urllink="https://dramatheory.wordpress.com/category/about-confrontations/drama-theory/"/>
+</topic>
+<topic id="39" parent="36" guid="qKCO0wyIO7QoERMSwIJjaw" x="42.032333" y="388.9206" text="Decision Workshops">
+<link urllink="http://www.decisionworkshops.com/dilemma-analysis/4589895073"/>
+</topic>
+</topics>
+<relations/>
+</mindmap>
+</simplemind-mindmaps>
