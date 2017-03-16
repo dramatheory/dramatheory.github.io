@@ -1,13 +1,13 @@
 # Site settings
 #source: .
 title: DramaTheory.org
-email: saul@saulhoward.com
+email: dramatheoryorg@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     Drama theory news and resources from across the internet.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dramatheory.org" # the base hostname & protocol for your site
-twitter_username: saulhoward
+twitter_username: dramatheory
 github_username:  dramatheory
 
 exclude: [vendor, bin, README.md]
