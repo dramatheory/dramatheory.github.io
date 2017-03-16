@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Modelling international crises"
+page-title:  "Modelling international crises"
 date:   2017-03-16 08:00:00
 categories: publications
 excerpt: A new paper has been published exploring the application of Confrontation Analysis to modelling political conflicts.
