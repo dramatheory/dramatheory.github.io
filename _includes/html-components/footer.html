@@ -9,7 +9,7 @@
                 <nav class="menu menu-horizontal">
                 <ul class="menu-list">
                     {% for page in site.pages %}
-                        {% if page.title %}
+                        {% if page.title and page.id != 404 %}
                             <li class="menu-item">
                                 <a class="menu-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                             </li>
