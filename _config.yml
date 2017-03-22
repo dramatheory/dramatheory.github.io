@@ -13,7 +13,7 @@ github_username:  dramatheory
 exclude: [vendor, bin, README.md]
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: pretty
 highlighter: pygments
 

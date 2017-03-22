@@ -20,4 +20,4 @@
 ### Publications
 
 - [Acting Strategically Using Drama Theory](https://www.crcpress.com/Acting-Strategically-Using-Drama-Theory/Bryant/9781482245318)
-
+- [Modelling the Outcomes of International Crises Using Confrontation Analysis](http://journals.sagepub.com/doi/10.1177/1046878117690947)

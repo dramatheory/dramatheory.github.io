@@ -57,17 +57,16 @@ permalink: /
 
         <div class="page-content">
         <div class="container">
-            <h2> <a href="/resources/">Resources</a> </h2>
-			{% capture my_include %}{% include resources.md %}{% endcapture %}
-			{{ my_include | markdownify }}
+            <h2> <a href="/news/">News</a> </h2>
+            {% include html-components/post-list.html %}
         </div>
         </div>
-
 
         <div class="page-content">
         <div class="container">
-            <h2> <a href="/news/">News</a> </h2>
-            {% include html-components/post-list.html %}
+            <h2> <a href="/resources/">Resources</a> </h2>
+			{% capture my_include %}{% include resources.md %}{% endcapture %}
+			{{ my_include | markdownify }}
         </div>
         </div>
 
