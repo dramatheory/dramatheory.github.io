@@ -15,5 +15,5 @@ exclude: [vendor, bin, README.md]
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 
